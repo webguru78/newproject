@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Home Start */
+#home
+{
+    background-color: #140342;
+}
+.bg
+{
+    color: white;
+}
+.bg h2
+{
+    
+    font-size: 45px;
+    margin-top: 8rem;
+}
+.bg p
+{
+    margin: 0;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 5vh;
+}
+.bg button
+{
+    background-color: #FF4548;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 0;
+    font-size: 17px;
+    border-radius: 20px;
+    margin: 8px;
+}
+/* Home End */
+
+/* 2nd Section Start */
+.s2
+{
+    margin: 20px 0;
+}
+.s2 img
+{
+    width: 34%;
+}
+.contact
+{
+    background-color: #F9B62A;
+    padding: 5rem;
+    border-radius: 25px;    
+}
+.contact input
+{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px 0;
+}
+.contact button
+{
+    background-color: #140342;
+    padding: 10px 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 200px;
+    border: 1px solid #140342;
+    border-radius: 20px; 
+}
+/* 2nd Section End */
+
+#third
+{
+    margin: 5rem 0;
+}
+.s3
+{
+    text-align: center;
+    padding: 3rem 0;
+}
+.s3 h2
+{
+    font-size: 35px;
+}
+.s3 p
+{
+    font-size: 20px;
+    padding: 7px 0;
+    line-height: 6vh;
+}
+
+#fourth
+{
+    background-color: #140342;
+}
+.career
+{
+    color: white;
+    padding: 20px 0;
+    margin: 30px 0;
+}
+.career h2
+{
+    font-size: 40px;
+}
+.career p
+{
+    font-size: 19px;
+    padding: 15px 0;
+    text-align: justify;
+}
+
+/* 5th Section Start */
+.course-text
+{
+    text-align: center;
+    margin: 40px 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.slider-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.slider-items img {
+    width: 10%;
+    margin: 20px auto;
+
+}
+
+/* 5th Section End */
